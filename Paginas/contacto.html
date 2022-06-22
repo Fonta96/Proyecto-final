@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online Armeria Fonta Shop</title>
+    <link rel="stylesheet" href="../Css/archivo.css"/>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <button class="boton" type="sudmit"><a target="_blanck" href="https://www.facebook.com"><img src="../imagenes/facebook.jpg" width="20"> </a> </button>
+            <h1>ARMERIA FONTA</h1>
+            <img class="foto" src="../imagenes/logo 1.jpg" width="40">
+        </div>
+        <hr>
+        <nav>
+            <ul> 
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="pasosParaComprarUnArmamento.html"> Pasos para comprar un armamento</a></li>
+                <li><a href="La empresa.html">La empresa</a></li>
+            </ul>
+         </nav>
+    </header>
+    <hr>
+    <main class="centrado">
+        <h2 class="comentarios">Dejenos su Mensaje</h2>
+        <form accion="/formulario" method="post"> 
+            <label for="nombre">Nombre</label>
+            <input value="Nombre"type="text" id="Nombre" name="Nombre" placeholder="Nombre" />
+            <br>
+            <label for="Apellido">Apellido</label>
+            <input value="Apellido" type="text" id="Apellido" name="Apellido" placeholder="Apellido" />
+                <br>
+            <label for="comentario"> Comentario </label>
+            <br>
+            <textarea style="resize:none;" cols="50"rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"> Deja tu comentario </textarea>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="sudmit">Enviar</button>
+        </form>
+    </main>
+    <footer class="ultimo">
+        <p> © 2022 Creador: 
+            <span>
+                Fontanillo Ivan, Estudiante de Coderhouse
+            </span>
+        </p>
+    </footer>
+    
+</body>
+</html>
